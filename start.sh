@@ -1,5 +1,5 @@
 #!/bin/bash
-/usr/lib/jvm/java-8-openjdk-amd64/bin/java \
+/usr/lib/jvm/java-17-openjdk-amd64/bin/java \
   -Xmx4G -Xms2G \
   -XX:+UseG1GC \
   -XX:+ParallelRefProcEnabled \
@@ -17,4 +17,4 @@
   -XX:SurvivorRatio=32 \
   -XX:+PerfDisableSharedMem \
   -XX:MaxTenuringThreshold=1 \
-  -jar forge-1.16.5-36.2.42.jar nogui
+  -jar forge-1.20.1-47.3.0.jar nogui

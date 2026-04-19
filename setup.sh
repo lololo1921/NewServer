@@ -1,10 +1,10 @@
 #!/bin/bash
-echo "=== Configurando entorno Minecraft Forge 1.16.5 ==="
+echo "=== Configurando entorno Minecraft Forge 1.20.1 ==="
 
-echo "[1/5] Instalando Java 8..."
+echo "[1/5] Instalando Java 17..."
 sudo apt-get update -qq
-sudo apt-get install -y openjdk-8-jdk -qq
-sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/bin/java
+sudo apt-get install -y openjdk-17-jdk -qq
+sudo update-alternatives --set java /usr/lib/jvm/java-17-openjdk-amd64/bin/java
 echo "Java listo: $(java -version 2>&1 | head -1)"
 
 echo "[2/5] Configurando git..."
